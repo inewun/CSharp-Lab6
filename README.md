@@ -253,3 +253,10 @@ double value = clone.ToDouble(); // 0.875 (кэшируется)
 clone.SetNumerator(3);
 value = clone.ToDouble();        // Пересчитывается из-за _isDirty = true
 ```
+## Тесты 
+### Кот
+<img width="911" height="840" alt="image" src="https://github.com/user-attachments/assets/d1cf53ee-1c09-439f-8c38-4bd8efa3ff50" />
+
+### Дроби
+<img width="550" height="565" alt="image" src="https://github.com/user-attachments/assets/8fe7dc82-38c7-4434-be8c-2ec0dcb60889" />
+
